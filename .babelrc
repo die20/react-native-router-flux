@@ -5,5 +5,7 @@
   "plugins": [
     "transform-decorators-legacy"
   ],
-  "exclude":'/node_modules/'
+  "ignore": [
+    "./node_modules/"
+  ]
 }
